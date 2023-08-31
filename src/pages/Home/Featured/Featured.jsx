@@ -11,13 +11,13 @@ const Featured = () => {
         });
     const currentYear = new Date().getFullYear();
     return (
-        <div className="featured-item">
+        <div className="featured-item bg-fixed text-white pt-8 my-20">
             <SectionTitle
                 subHeading="Check it out"
                 heading="Featured Item"
             ></SectionTitle>
 
-            <div className="md:flex justify-center item-center py-8 px-16">
+            <div className="md:flex justify-center item-center pb-20 pt-12 px-36 bg-slate-600 bg-opacity-50">
                 <div>
                     <img src={featuredImg} alt="featued item" />
                 </div>
@@ -25,7 +25,7 @@ const Featured = () => {
                     <p>{currentDay} {currentMonth} {currentYear} </p>
                     <p className="uppercase">Where can I get some ?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum mollitia hic distinctio laudantium? Beatae quasi hic fugit doloremque minus, totam reiciendis natus error unde repellat placeat dolorem. Magni, nam? </p>
-                    <button className="btn btn-outline">Order Now</button>
+                    <button className="btn btn-outline border-0 border-b-4 mt-4">Order Now</button>
 
 
                 </div>
