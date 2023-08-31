@@ -17,7 +17,7 @@ const Featured = () => {
                 heading="Featured Item"
             ></SectionTitle>
 
-            <div className="md:flex justify-center item-center pb-20 pt-12 px-36 bg-slate-600 bg-opacity-50">
+            <div className="md:flex justify-center item-center pb-20 pt-12 px-36 bg-slate-600 bg-opacity-60">
                 <div>
                     <img src={featuredImg} alt="featued item" />
                 </div>
@@ -25,7 +25,7 @@ const Featured = () => {
                     <p>{currentDay} {currentMonth} {currentYear} </p>
                     <p className="uppercase">Where can I get some ?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum mollitia hic distinctio laudantium? Beatae quasi hic fugit doloremque minus, totam reiciendis natus error unde repellat placeat dolorem. Magni, nam? </p>
-                    <button className="btn btn-outline border-0 border-b-4 mt-4">Order Now</button>
+                    <button className="btn btn-outline border-0 border-b-4 mt-4 text-white">Order Now</button>
 
 
                 </div>
