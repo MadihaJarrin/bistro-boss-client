@@ -43,7 +43,7 @@ const Testimonials = () => {
                         >
 
                             <div className="flex flex-col items-center mx-24 my-16">
-                                <h2>REVIEW COUNT : {reviews.length}</h2>
+                                <h2>REVIEWS COUNT : {reviews.length}</h2>
 
                                 <Rating
                                     style={{ maxWidth: 180 }}
